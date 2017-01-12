@@ -13,7 +13,7 @@ Die in mediaTUM hinterlegten Daten können komfortabel über Webschnittstellen i
 
 mediaTUM ist geeignet für verschiedene Einsatzszenarien:
 
-* Repository für Bilder und Videos:
+* Verwendung als Repository für Bild- und Videodateien:
    * Dateiformate und Objekttypen: JPG, TIFF, MP4
    * Beliebige Anpassbarkeit der vorhandenen Metadatenschemata aus dem Bereich Video und Bild
    * Uploadfunktion für einzelne Bilddateien oder komplette Archive

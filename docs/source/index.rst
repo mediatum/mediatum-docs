@@ -4,11 +4,11 @@
    contain the root `toctree` directive.
 
 ######################
-mediaTUM documentation
+mediaTUM Dokumentation
 ######################
 
-mediaTUM is a digital repository for documents, media and data.
-Please refer to the :ref:`intro` to learn more about the high-level concepts and possible application areas for mediaTUM.
+mediaTUM ist eine freie Python-Software zur flexiblen Verwaltung von Text-, Bild- und Video-Dateien sowie sonstigen Forschungsdaten.
+Im :ref:`intro` sind gängige Einsatzmöglichkeiten für mediaTUM beschrieben.
 
 ========
 Contents
