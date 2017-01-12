@@ -292,7 +292,7 @@ Mit output können Sie das Ausgabe-Format beeinflussen. Neben einem Standard-For
 
 
     Style "1" (Default): Treffer der Liste werden mit Rahmen dargestellt.
-                                          |
+
     .. figure:: images/MitRahmen.png
         :alt: MitRahmen.png
 
