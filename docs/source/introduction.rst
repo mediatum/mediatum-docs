@@ -1,142 +1,43 @@
 .. _intro:
 
-Introduction
-============
+Kurzüberblick
+=============
 
-mediaTUM is an open source software product for image, document and video archiving and retrieval written in Python.
+mediaTUM ist freie Python-Software zur flexiblen Verwaltung von Text-, Bild- und Video-Dateien sowie sonstigen Forschungsdaten.
+Es ermöglicht die Erschließung, Veröffentlichung, Administration, Recherche und Verbreitung von Publikationen mit
+und ohne Volltext (z.B. als Open-Access-Repository oder als Hochschulbibliographie).
+Die Metadaten zu einer Objektdatei können während des Veröffentlichungsprozesses über ein Online-Formular eingegeben und
+von entsprechend berechtigten Personen administriert werden. mediaTUM zeichnet sich durch sein flexibles Rechtemanagementsystem aus,
+bei dem Zugriffrechte bis hin zur Ebene einzelner Objekte festgelegt werden können.
+Die in mediaTUM hinterlegten Daten können komfortabel über Webschnittstellen in andere Anwendungen integriert und nachgenutzt werden.
 
-It can be used as:
+mediaTUM ist geeignet für verschiedene Einsatzszenarien:
 
-* Repository for images and videos:
-   * Supported formats: JPG, TIFF, MP4
-   * The predefined structures for metadata of image and video data can be adapted.
-   * Upload of individual images or complete archives
-   * Automatic extraction of image metadata such as EXIF tags
-   * Display of image objects in different resolutions
-   * Zoom function for images
+* Repository für Bilder und Videos:
+   * Dateiformate und Objekttypen: JPG, TIFF, MP4
+   * Beliebige Anpassbarkeit der vorhandenen Metadatenschemata aus dem Bereich Video und Bild
+   * Uploadfunktion für einzelne Bilddateien oder komplette Archive
+   * Automatische Extraktion von Bild-Metadaten wie z.B. EXIF-Daten
+   * Darstellung eines Objektes in unterschiedlichen Auflösungen
+   * Zoomfunktion bei Bildobjekten
 
-* Document respository:
-   * Support for different PDF file types: PDF-X, PDF-A
-   * Upload of PDF documents and fulltext search in their content
-   * Automatic extraction of PDF-file metadata
-   * Predefined metadata schemas for text-based media
+* Verwendung als Volltextschriften-Server:
+   * Unterstützung verschiedener PDF-Dateiformate: PDF-X, PDF-A
+   * Ablage von PDF-Dateien und Volltextsuche über alle Dokumente
+   * Automatische Extraktion von Metadaten aus PDF-Dateien
+   * Anpassbare Metadatenschemata (wie oben)
 
-* Digital library for academic fulltext publications:
-   * OAI interface
-   * URN generation
-   * Standard workflows with defined steps starting from the document upload,
-     to internal processing by differently authorized users,
-     quality control of the metadata and finally publication of the document
+* Verwendung als Hochschulschriften-Server für elektronische Dissertationen:
+   * Integration der OAI-Schnittstelle zur Deutschen Nationalbibliothek
+   * URN-Generierung
+   * Workflow-Funktion mit definierten Bearbeitungsschritten wie Upload, interne Weiterbearbeitung für ausgewiesene User,
+     Freigabe des Objektes zur Präsentation im Internet
 
-For all these use cases you will also get:
+In allen Anwendungsfällen wird zusätzlich bereitgestellt:
 
-* Flexible definition of masks for selective editing and display of metadata fields
-* Export to BibTeX
-* A Web-API to request entries in XML or JSON format
+* Flexible Definition von Masken, die das selektive Editieren und Anzeigen von Metadatenfeldern erlauben
+* Export im BibTeX-Format
+* Eine Webschnittstelle um Datensätze im XML- oder JSON-Format abzurufen
 
-
-The source code of mediaTUM is hosted at `github.com/mediatum <https://github.com/mediatum>`_.
-Contributions in the form of pull requests are welcome.
-
-Concepts & features
--------------------
-
-General concepts
-^^^^^^^^^^^^^^^^
-
-A mediaTUM instance comprises collections, directories and data nodes.
-Metadata can be added and edited for all data items.
-Role-based access control allows a fine-grained manipulation of who can see or edit data nodes.
-
-Full-texts and metadata can be indexed by web search engines.
-
-
-Editor
-^^^^^^
-
-The editor provides functionality to change the structure and metadata of collections and nodes.
-
-
-Authentication and access control
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Authentication via LDAP is provided.
-
-The authorization system manages and checks the access privileges of users.
-
-
-File upload
-^^^^^^^^^^^
-
-Different file formats can be uploaded and displayed:
-
-* PDF documents
-* Image files (JPEG, TIFF)
-* Video files (MP4)
-* Audio files (MP3)
-
-
-Displaying documents and media
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Images:
-
-* Browsing thumbnails
-* Viewing high-resolution versions of images
-* EXIF metadata manipulation
-* Zoomify viewer (flash)
-
-
-Playing video and audio files.
-
-
-Search features
-^^^^^^^^^^^^^^^
-
-Two different search modes are implemented: simple and extended.
-
-mediaTUM provides search on the meta data and the fulltext of submitted documents.
-Text is also extracted from e.g. PDF files.
-`PostgreSQL fulltext search <https://www.postgresql.org/docs/current/static/textsearch.html>`_ is used as search engine.
-It is also accessible via the webservice.
-
-Result pages can be sorted by multiple criteria.
-
-Workflows
-^^^^^^^^^
-
-Workflows define how documents are entering mediaTUM.
-
-
-Versioning
-^^^^^^^^^^
-
-Data nodes are versioned to ensure that no data can get lost during editing.
-
-
-REST API webservice / data export
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-The webservice can be accessed at  `/services/export <https://mediatum.ub.tum.de/services/export>`_
-
-It can serve data in JSON, XML and other formats (OAI, Z39.50).
-
-The API is defined by the code in `/web/services <https://github.com/mediatum/mediatum/tree/postgres/web/services>`_.
-
-Eamples:
-
- * with HTTPie: ``http --verify=no "https://mediatum.yourdomain.org/services/export/node/1109402?format=json&nodetype&nodename&files"``
-
-
-Data import
-^^^^^^^^^^^
-
-Metadata can be imported via multiple formats: BibTeX files, DOIs.
-
-
-Usage and content statistics
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Aggregated data about the number and types of documents and accesses/downloads can be generated.
-
-
+Der Quellcode von mediaTUM ist verfügbar unter `github.com/mediatum <https://github.com/mediatum>`_.
+Beiträge zur Weiterentwicklung in Form von *pull requests* sind willkommen.
