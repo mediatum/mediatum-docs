@@ -95,8 +95,6 @@ Verschieben Sie dafür den Rahmen bzw. klicken zum Ausblenden der Navigation auf
    :alt: ErstSchri5.jpg
 
 
-I
-
 Datensätze
 ----------
 
