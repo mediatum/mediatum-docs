@@ -95,6 +95,7 @@ Verschieben Sie dafür den Rahmen bzw. klicken zum Ausblenden der Navigation auf
    :alt: ErstSchri5.jpg
 
 
+
 Datensätze
 ----------
 
@@ -876,8 +877,8 @@ Sonstiges
 
 **Publikationsliste**
 
-Lassen Sie automatisch auf Ihrer Homepage den aktuellen Inhalt Ihrer Verzeichnisse auf Ihrer Homepage darstellen.
-MehrInformationen finden Sie unter :ref:`Publikationsliste`.
+Lassen Sie den aktuellen Inhalt Ihrer Verzeichnisse auf Ihrer Homepage darstellen.
+Weitere Informationen finden Sie unter :ref:`Publikationsliste`.
 
 **Papierkorb** |Papierkorb|
 
