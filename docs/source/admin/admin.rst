@@ -5,7 +5,8 @@ Benutzer / -gruppen Verwaltung
 .. figure:: images/AdminNeuStart.png
    :alt: AdminNeuStart.png
 
-
+Den Adminbereich erreichen Sie, indem Sie ``/f/admin`` hinter Ihrer URL ergänzen.
+Zum Beispiel unter http://mediatum.ub.tum.de/f/admin/.
 Nach dem Login erweitert sich die Menüleiste um:
 
 -  User

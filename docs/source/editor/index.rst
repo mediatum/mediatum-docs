@@ -86,13 +86,13 @@ Die blaue Unterlegung zeigt an, in welchem Verzeichnis Sie sich im Moment befind
 
 Oben links finden Sie Symbole für eine schnellere Navigation in Ihrem Arbeitsverzeichnis.
 
-Auf der rechten Bildschirmseite befindet sich der Eingabebereich.
+Auf der rechten Bildschirmseite befindet sich der Arbeitsbereich (unten blau markiert).
 Hier können Sie Datensätze anlegen und bearbeiten, digitale Objekte hochladen, Berechtigungen vergeben usw.
 Dieser Bereich kann vergrößert werden.
-Verschieben Sie dafür den Rahmen bzw. klicken zum Ausblenden der Navigation auf den grauen Balken.
+Verschieben Sie dafür den Rahmen bzw. klicken zum Ausblenden der Navigation auf den grauen Balken (jeweils rot markiert).
 
-.. figure:: images/ErstSchri5.jpg
-   :alt: ErstSchri5.jpg
+.. figure:: images/ErstSchri5.png
+   :alt: ErstSchri5.png
 
 
 
@@ -485,7 +485,7 @@ Publizierte Datensätze können verschoben werden. Das ist z.B. notwendig,
 wenn Datensätze in ein falsches Verzeichnis eingestellt wurden oder die
 Ordnerstruktur geändert werden soll.
 
-Wechseln Sie über den Navigationsbaum in das Verzeichnis, in dem die
+Wechseln Sie über die Navigation in das Verzeichnis, in dem die
 betreffenden Datensätze liegen. Wählen Sie die gewünschten Datensätze
 aus, indem Sie die **Markieren-Checkbox** der betreffenden Datensätze
 anhaken und führen anschließend über das Symbol |VerschiebenEdit|
