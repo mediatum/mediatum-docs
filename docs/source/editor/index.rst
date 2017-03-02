@@ -485,7 +485,7 @@ Publizierte Datensätze können verschoben werden. Das ist z.B. notwendig,
 wenn Datensätze in ein falsches Verzeichnis eingestellt wurden oder die
 Ordnerstruktur geändert werden soll.
 
-Wechseln Sie über die Navigation in das Verzeichnis, in dem die
+Wechseln Sie über den Navigationsbaum in das Verzeichnis, in dem die
 betreffenden Datensätze liegen. Wählen Sie die gewünschten Datensätze
 aus, indem Sie die **Markieren-Checkbox** der betreffenden Datensätze
 anhaken und führen anschließend über das Symbol |VerschiebenEdit|
