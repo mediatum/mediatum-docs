@@ -89,7 +89,7 @@ Oben links finden Sie Symbole für eine schnellere Navigation in Ihrem Arbeitsve
 Auf der rechten Bildschirmseite befindet sich der Arbeitsbereich (unten blau markiert).
 Hier können Sie Datensätze anlegen und bearbeiten, digitale Objekte hochladen, Berechtigungen vergeben usw.
 Dieser Bereich kann vergrößert werden.
-Verschieben Sie dafür den Rahmen bzw. klicken zum Ausblenden der Navigation auf den grauen Balken (jeweils rot markiert).
+Verschieben Sie dafür den Rahmen bzw. klicken zum Ausblenden des Navigationsbaums auf den grauen Balken (jeweils rot markiert).
 
 .. figure:: images/ErstSchri5.png
    :alt: ErstSchri5.png
