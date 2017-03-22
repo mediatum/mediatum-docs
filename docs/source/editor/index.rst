@@ -574,19 +574,16 @@ Markieren sie im Verzeichnis mehrere Datensätze und klicken Sie im oberen Navig
 auf das Symbol |BearbeitenEdit|, |VerschiebenEdit|, |KopierenEdit| oder |LoeschenEdit| so gelangen Sie in die
 gleichzeitige Bearbeitungsfunktion.
 
+Es ist außerdem möglich, mehre Datensätze automatisch zu selektieren.
+Sie können alle dargestellten Treffer einer einzelnen Seite selektieren: "Markieren: Alle angezeigten Objekte markieren".
 
-Es ist möglich, mehre Datensätze zu selektieren und dann gleichzeitig zu bearbeiten.
-Wählen Sie dazu die Datensätze eines Verzeichnisses aus,
-indem Sie die **Markieren-Checkbox** der betreffenden Datensätze anhaken.
-Über das Pulldown-Menü **Markieren** können Sie auch alle Datensätze eines Verzeichnisses markieren,
-eine Auswahl invertieren oder aufheben.
+Klicken Sie anschließend auf |VerschiebenEdit|, |KopierenEdit| oder |LoeschenEdit| und Sie können diese
+Aktion für alle ausgewählten Dokumente durchführen.
 
 .. figure:: images/Bearb5.jpg
    :alt: Bearb5.jpg
 
-
-Klicken Sie anschließend auf |VerschiebenEdit|, |KopierenEdit| oder |LoeschenEdit| und Sie können diese
-Aktion für alle ausgewählten Dokumente durchführen.
+Das gesamte Verzeichnis kann gleichzeitig bearbeitet werden, indem ohne Vorauswahl direkt das Symbol neben "Alle Objekte des Ordners bearbeiten" angeklickt wird.
 
 
 Bearbeiten mehrerer Metadaten gleichzeitig
