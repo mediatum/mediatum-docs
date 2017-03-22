@@ -1,9 +1,6 @@
 Editor
 ======
 
-Erste Schritte
---------------
-
 .. |ErstSchri1| image:: images/ErstSchri1.jpg
 .. |ErstSchri2| image:: images/ErstSchri2.jpg
 .. |ErstSchri3| image:: images/ErstSchri3.jpg
@@ -22,8 +19,97 @@ Erste Schritte
 .. |LoeschenEdit| image:: ../images/LoeschenEdit.jpg
 
 
-Der Editor-Bereich ermöglicht das Hochladen von Dateien, das Eintragen von Metadaten und die Publikation der
-eingestellten Datensätze innerhalb von Kollektionen und Verzeichnissen.
+Kurzanleitung
+-------------
+
+mediaTUM, der Medien- und Publikationsserver der Technischen Universität München, bietet Ihnen die Möglichkeit, Publikationen Ihrer Einrichtung hochzuladen und zu verwalten.
+Dabei unterstützt Sie der Editor von mediaTUM.
+Von den verwalteten Dokumenten können Sie Publikationslisten, die sich automatisch aktualisieren, erstellen und diese in Ihre Webseiten einbinden.
+
+Editor öffnen
+^^^^^^^^^^^^^
+
+- Loggen Sie sich unter https://mediatum.ub.tum.de ein.
+- Klicken Sie auf „Bearbeiten“ in der oberen Leiste.
+- Sie erhalten diese Ansicht:
+
+.. figure:: images/Edit.png
+   :alt: Edit.png
+
+   
+Neue Dokumente erstellen
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+Möglichkeit 1: "Metadaten einstellen" anklicken
+"""""""""""""""""""""""""""""""""""""""""""""""
+
+- Wählen Sie Objekttyp und Metadatenschema aus.
+- Füllen Sie das Metadatenschema aus und speichern Sie Ihre Eingaben.
+- Klicken Sie in der oberen Navigation auf „Metadaten editieren > Digitale Objekte“.
+- Öffnen Sie „Optionen“, wählen Sie Ihre Datei aus und klicken Sie auf „Anlegen / Hochladen“.
+
+.. figure:: images/ErstelleDatensatz2.jpg
+   :alt: ErstelleDatensatz2.jpg
+   
+   
+Möglichkeit 2: "Datei(en) hochladen" anklicken
+""""""""""""""""""""""""""""""""""""""""""""""
+
+- Wählen Sie Ihre Datei aus, laden Sie sie hoch und wählen Sie den Metadatentyp.
+- Mit „Objekte erzeugen“ wird ein neuer Datensatz angelegt.
+- Sie finden das Objekt im Bearbeitungsbereich Ihres Upload-Ordners.
+- Zum Editieren klicken Sie auf das Symbol |BearbeitenEdit| „Metadaten bearbeiten“ .
+
+
+Möglichkeit 3: BibTeX-Import
+""""""""""""""""""""""""""""
+
+- „Datei(en) hochladen“ anklicken.
+- Laden Sie eine BibTeX-Datei hoch.
+- Wählen Sie „Objekte verarbeiten“ aus.
+- Es werden neue Datensätze angelegt.
+- Überprüfen und ergänzen Sie die Datensätze bei Bedarf.
+   
+
+Möglichkeit 4: DOI-Import
+"""""""""""""""""""""""""
+
+- „Metadaten einstellen“ anklicken.
+- Wechseln Sie auf „von Identifier“.
+- Tragen Sie die DOI ein.
+- Klicken Sie auf „Objekt erzeugen“.
+- Metadaten werden automatisch angelegt.
+- Überprüfen Sie die Metadaten und korrigieren Sie diese bei Bedarf.   
+   
+
+
+Veröffentlichen: Quick Publisher   
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^   
+   
+In Ihrem Arbeitsbereich finden Sie nun den rot hervorgehobenen Hinweis, dass sich in Ihrem Upload-Ordner unveröffentlichte Dokumente befinden.
+
+- Klicken Sie auf „Unpublizierte Objekte jetzt publizieren (Quick Publisher)“.
+- Eine Übersicht der Dokumente wird nochmals dargestellt, darüber finden Sie „Verzeichnisse auswählen“.
+- Es öffnet sich der Verzeichnisbaum. Wählen Sie einen oder mehrere Zielordner aus.
+- Die Ordner werden übernommen und aufgelistet.
+- Haken Sie Dokumente zum Veröffentlichen an.
+- Schließen Sie den Vorgang mit „Publizieren“ ab.
+- Die Dokumente wurden nun erfolgreich verschoben und publiziert.
+
+.. figure:: images/Publizieren2.jpg
+   :alt: Publizieren2.jpg   
+   
+   
+Webseite mit Publikationsliste
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Bei der Erstellung und beim Einbinden von Publikationslisten unterstützen wir Sie gerne.
+Bitte wenden Sie sich dafür an uns mediatum@ub.tum.de.
+
+
+Erste Schritte
+--------------
+
+Der Editor-Bereich ermöglicht das Hochladen von Dateien, das Eintragen von Metadaten und die Publikation der eingestellten Datensätze innerhalb von Kollektionen und Verzeichnissen.
 Daneben sind zahlreiche weitere Funktionen verfügbar.
 
 .. figure:: ../user/images/Recherche.jpg
@@ -38,8 +124,8 @@ sind. Klicken Sie nun oben links auf Bearbeiten, um in den
 Bearbeitungsmodus zu wechseln.
 
 
-.. figure:: images/Edit.jpg
-   :alt: Edit.jpg
+.. figure:: images/Edit.png
+   :alt: Edit.png
 
 
 +----------------+-----------------------------------------------------------------+
