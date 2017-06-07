@@ -355,7 +355,7 @@ Mit output können Sie das Ausgabe-Format beeinflussen. Neben einem Standard-For
 
     In die Publikationslisten werden nur Einträge aufgenommen mit „Jeder“-Berechtigung.
 
-    Weiere Informationen finden Sie unter: http://wiki.ub.tum.de/mediatum_dev/index.php5/Mediatum_dev:JavaScriptExport
+    `Weitere Informationen und Funktionen <http://129.187.87.212/mediatum_dev/index.php/Mediatume_dev:Webservice_REST>`_
 
 
 
