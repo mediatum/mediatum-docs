@@ -213,7 +213,7 @@ Mit output können Sie das Ausgabe-Format beeinflussen. Neben einem Standard-For
 
         'fields0':['<HTML-Tag>[att:Name des Feldes]</HTML-Tag>',
                    '<HTML-Tag>[att:Name des Feldes]</HTML-Tag>',
-                   '<HTML-Tag>[att:Name des Feldes]</HTML-Tag'
+                   '<HTML-Tag>[att:Name des Feldes]</HTML-Tag>'
         ],
 
     Auf einer Webseite können mehrere Publikationslisten angezeigt werden.
@@ -437,8 +437,7 @@ Der Export-Link besitzt folgenden Aufbau:
 
 **Ausführliche Informationen:**
 
--  Zu erweiterten Suchmöglichkeiten:
-   http://wiki.ub.tum.de/mediatum\_dev/index.php5/Mediatume\_dev:Webservice\_REST
+-  `Zu erweiterten Suchmöglichkeiten <http://129.187.87.212/mediatum_dev/index.php/Mediatume_dev:Webservice_REST>`_
 -  Zu Publikationslisten, mit mediaTUM als Quelle:
    https://www.typo3.tum.de/index.php?id=61&L=0
 
