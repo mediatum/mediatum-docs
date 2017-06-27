@@ -87,13 +87,11 @@ Sie können die Liste mit JavaScript oder das Typo3 Plugin CurlContent erzeugen.
 
 Java Script
 ^^^^^^^^^^^
-Mit dem JavaScript-Export können Sie Publikationslisten auf Ihrer Lehrstuhl-Homepage anlegen.
+Mit dem JavaScript-Export können Sie Publikationslisten auf Ihrer Homepage anlegen. 
+Voraussetzung ist, dass JavaScript an der entsprechenden Stelle ausgeführt werden darf.
 
-Einstieg
-""""""""
-Mit dem JavaScript-Export können Sie Publikationslisten auf Ihre Lehrstuhl-Homepage anlegen.
 
-**So ermitteln Sie die ID Ihres Lehrstuhl-Verzeichnisses:**
+**So ermitteln Sie die ID Ihres Verzeichnisses:**
 
 Rufen Sie das Verzeichnis über die Browsing-Struktur auf.
 In der Adresszeile des Browsers finden Sie die gesuchte ID, s. Screenshot.
@@ -102,7 +100,7 @@ Im Beispiel unten handelt es sich um die ID 604223 (Verzeichnis der Universität
 .. figure:: images/IDErmitteln.png
    :alt: IDErmitteln.png
 
-Alternativ finden Sie die ID auch im Edit-Bereich, nachdem Sie Ihren Lehrstuhl ausgewählt haben.
+Alternativ finden Sie die ID auch im Edit-Bereich, nachdem Sie Ihren Bereich ausgewählt haben.
 
 .. figure:: images/IDErmittelnEditor.png
    :alt: IDErmittelnEditor.png
@@ -123,7 +121,7 @@ Ein einfaches Code-Beispiel:
     </script>
 
 
-Kopieren Sie den Text in eine HTML-Seite Ihrer TYPO3-Instanz und tauschen Sie die ID 615843 durch die ID des gewünschten Verzeichnisses aus.
+Kopieren Sie den Text in eine HTML-Seite und tauschen Sie die ID 615843 durch die ID des gewünschten Verzeichnisses aus.
 
 Auf der Webseite wird dann eine Publikationsliste angezeigt:
 
