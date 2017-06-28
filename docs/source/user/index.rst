@@ -85,7 +85,7 @@ Sie können Kollektionen und beliebige Verzeichnisse oder Abfragen zu einem Bere
 Die einzige Voraussetzung ist, dass die Dokumente sichtbar sein müssen.
 Sie können die Liste mit JavaScript oder das Typo3 Plugin CurlContent erzeugen.
 
-Java Script
+JavaScript
 ^^^^^^^^^^^
 Mit dem JavaScript-Export können Sie Publikationslisten auf Ihrer Homepage anlegen. 
 Voraussetzung ist, dass JavaScript an der entsprechenden Stelle ausgeführt werden darf.
