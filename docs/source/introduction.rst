@@ -3,7 +3,7 @@
 Kurzüberblick
 =============
 
-mediaTUM ist freie Python-Software zur flexiblen Verwaltung von Text-, Bild- und Video-Dateien sowie sonstigen Forschungsdaten.
+mediaTUM ist eine freie Python-Software zur flexiblen Verwaltung von Text-, Bild- und Video-Dateien sowie sonstigen Forschungsdaten.
 Es ermöglicht die Erschließung, Veröffentlichung, Administration, Recherche und Verbreitung von Publikationen mit
 und ohne Volltext (z.B. als Open-Access-Repository oder als Hochschulbibliographie).
 Die Metadaten zu einer Objektdatei können während des Veröffentlichungsprozesses über ein Online-Formular eingegeben und
