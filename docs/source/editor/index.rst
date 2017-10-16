@@ -543,7 +543,7 @@ z.B.:
 
 .. code-block:: ruby
 
-    http://mediatum.ub.tum.de/1166386
+    https://mediatum.ub.tum.de/1166386
 
 Die ID eines Datensatzes finden Sie, wenn Sie den Datensatz im Editbereich
 aufrufen, die ID steht in der rechten oberen Ecke.

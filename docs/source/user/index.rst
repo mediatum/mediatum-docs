@@ -446,7 +446,7 @@ Download als Excel-Datei
 
 Einen Export im Excel-Format erhält man über folgenden Link:
 
-``http://mediatum.ub.tum.de/services/export/node/<ID>/allchildren?format=csv&sep=;&delimiter=dquote&bom&mimetype=application/vnd.ms-excel``
+``https://mediatum.ub.tum.de/services/export/node/<ID>/allchildren?format=csv&sep=;&delimiter=dquote&bom&mimetype=application/vnd.ms-excel``
 
 Mit allchildren werden alle Kindelemente angezeigt, Vgl. (:ref:`Export von Trefferlisten`).
 Eine Einschränkung mit Suchanfragen ist möglich.
@@ -467,7 +467,7 @@ Export im BibTeX-Format
 
 Der Export-Link für das BibTeX-Format hat folgenden Aufbau:
 
-``http://mediatum.ub.tum.de/services/export/node/ID/allchildren/?format=template_test&mask=bibtex&lang=de&template=$$[defaultexport]$$\n\n&mimetype=text/plain``
+``https://mediatum.ub.tum.de/services/export/node/ID/allchildren/?format=template_test&mask=bibtex&lang=de&template=$$[defaultexport]$$\n\n&mimetype=text/plain``
 
 
 **ID** und **allchildren** sind auszutauschen bei Bedarf, Vgl. (:ref:`Export von Trefferlisten`).
