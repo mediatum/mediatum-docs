@@ -21,7 +21,7 @@ Diese nennt die Anzahl aller Dokumente, die in diesem Verzeichnis liegen.
 Wenn Sie weniger Treffer einsehen können, als die Zahl beschreibt, sind interne Dokumente im Verzeichnis enthalten.
 Damit Sie diese einsehen können, müssen Sie sich mit einem Account mit entsprechenden Berechtigungen einloggen.
 
-
+.. _Suche:
 
 Suche
 -----

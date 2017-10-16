@@ -797,6 +797,15 @@ Besonderheiten Kollektion
 - **Logo für Startseite:** Kann nur bei Kollektionen eingebunden werden, siehe :ref:`Logo`.
 - **Anzahl Dokumente:** Nur noch im Editor wird die Anzahl der in der Kollektion eingetragenen Dokumente dargestellt. In anderen Ansichten wird diese Zahl verborgen.
 
+Suche im Editor
+---------------
+
+.. figure:: images/EditorSuche.png
+   :alt: EditorSuche.png
+
+Im Editor ist die Suche nach Datensätzen in einem Ordner möglich. Unterordner werden dabei nicht berücksichtigt.
+Die Suche kann wie in der Rechercheansicht genutzt werden, siehe :ref:`Suche`.
+
 
 Erscheinungsbild
 ----------------
