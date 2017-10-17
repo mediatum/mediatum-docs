@@ -803,7 +803,7 @@ Suche im Editor
 .. figure:: images/EditorSuche.png
    :alt: EditorSuche.png
 
-Im Editor ist die Suche nach Datensätzen in einem Ordner möglich. Unterordner werden dabei nicht berücksichtigt.
+Im Editor ist die Suche nach Datensätzen in einem Ordner möglich.
 Die Suche kann wie in der Rechercheansicht genutzt werden, siehe :ref:`Suche`.
 
 
