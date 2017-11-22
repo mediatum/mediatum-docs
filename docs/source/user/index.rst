@@ -355,6 +355,23 @@ Mit output können Sie das Ausgabe-Format beeinflussen. Neben einem Standard-For
 
     `Weitere Informationen und Funktionen <http://129.187.87.212/mediatum_dev/index.php/Mediatume_dev:Webservice_REST>`_
 
+Suche nach Umlauten
+"""""""""""""""""""
+	
+Wir empfehlen, die HTML-Datei mit der Kodierung *UTF-8 without BOM* zu speichern. Sie können dann Begriffe mit Umlauten sowohl mit 'ü' (z.B. Müller) als auch mit 'ue' (z.B. Mueller) schreiben, beide Schreibweisen werden gefunden.
+
+Mit einer anderen Kodierung kann es bei der Umlaut-Suche zu Fehlern kommen. 
+
+Um das zu vermeiden, geben Sie im Header der Datei an:
+
+``<meta http-equiv="content-type" content="text/html; charset=utf-8">``
+
+``<meta charset="utf-8">``
+
+In der mediatum_load-Zeile wird dann die Query wie folgt angegeben: 
+``unescape(encodeURIComponent('Feldname=SuchbegriffMitUmlaut')),``
+
+Beispiel: ``mediatum_load(603843, 55, 'author.surname', unescape(encodeURIComponent('author.surname=Müller')), '', '');``
 
 
 Curl Content
