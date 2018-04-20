@@ -48,10 +48,10 @@ Ansicht anpassen
 Wenn mehrere Dokumente aufgelistet werden, entweder nach einer Suche oder öffnen eines Bereichs, können Sie die Darstellung anpassen.
 Sie können oben rechts zwischen vier Optionen wählen.
 
-* Listen-Ansicht nur Text: Kompakte Darstellung, da keine Thumbnials dargestellt werden.
+* Listen-Ansicht, nur Text: Kompakte Darstellung, da keine Thumbnails dargestellt werden.
 * Listen-Ansicht mit Thumbnail: Kompakte Darstellung, benötigt etwas Platz, da kleine Thumbnails sichtbar sind.
 * Thumbnail-Ansicht: Ähnliche Darstellung wie die Listen-Ansicht mit Thumbnail. Aber kompakter, weil mehrere Dokumente in einer Zeile stehen.
-* Thumbnail-Ansicht(groß): Ausschließlich Thubmnails werden angezeigt. Benötigt am meisten Platz, da die Thumbnails größer als in anderen Ansichten angezeigt werden. Es werden keine Metadaten dargestellt.
+* Thumbnail-Ansicht (groß): Ausschließlich Thubmnails werden angezeigt. Benötigt am meisten Platz, da die Thumbnails größer als in anderen Ansichten angezeigt werden. Es werden keine Metadaten dargestellt.
 
 
 
@@ -59,7 +59,7 @@ Vollanzeige
 ^^^^^^^^^^^
 
 Nach der Auswahl in der Trefferliste wird das Dokument in der Vollansicht angezeigt. 
-Angezeigt werden die Metadaten des Dokuments, die auch im Bibtex-Format exportiert werden können.
+Angezeigt werden die Metadaten des Dokuments, die auch ins Bibtex-Format exportiert werden können.
 Ist ein Volltext vorhanden, kann er über einen Klick auf das Thumbnail aufgerufen werden.
 
 Der Zugriff auf einen Volltext kann über IP-Adressen (z.B. campusweit) oder Benutzergruppen geregelt werden. 
