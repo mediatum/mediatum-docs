@@ -27,11 +27,11 @@ Suche
 -----
 
 In dem Eingabefeld links oben kann eine einfache Suche durchgeführt werden. 
-Beim Ausführen einer Suche auf der mediaTUM Startseite wird eine Suche im Gesamtbestand durchgeführt.
+Beim Ausführen einer Suche auf der mediaTUM-Startseite wird eine Suche im Gesamtbestand durchgeführt.
 Wechselt man in eine Kollektion oder ein Unterverzeichnis, werden nur diese Bestände durchsucht.
 Für einzelne Kollektionen kann auch eine erweiterte Suche durchgeführt werden, erreichbar über den Link "Erweiterte Suche".
-Hier kann gezielt nach Inhalten in einzelnen Felder gesucht werden:
-neben der Eingabe von Suchbegriffen ist eine Auswahl aus Index-Listen möglich.
+Hier kann gezielt nach Inhalten in einzelnen Feldern gesucht werden:
+Neben der Eingabe von Suchbegriffen ist eine Auswahl aus Index-Listen möglich.
 Welche Felder durchsuchbar sind, wird vom Inhaber der Kollektion festgelegt: :ref:`Suche Einrichten`.
 
 
