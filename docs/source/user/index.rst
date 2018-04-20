@@ -83,7 +83,7 @@ Publikationsliste
 Publikationslisten sind Listen, die mit mediaTUM erzeugt werden und die Sie auf Ihrer Homepage einbauen können.
 Sie können Kollektionen und beliebige Verzeichnisse oder Abfragen zu einem Bereich ausgeben lassen.
 Die einzige Voraussetzung ist, dass die Dokumente sichtbar sein müssen.
-Sie können die Liste mit JavaScript oder das Typo3 Plugin CurlContent erzeugen.
+Sie können die Liste mit JavaScript oder das Typo3-Plugin CurlContent erzeugen.
 
 JavaScript
 ^^^^^^^^^^^
@@ -149,7 +149,7 @@ Der Inhalt der Felder ist in folgender Tabelle beschrieben:
 |                |0 bedeutet, dass alle Dokumente angezeigt werden sollen.                    |
 +----------------+----------------------------------------------------------------------------+
 |sort            |Sortierung der Trefferliste nach dem Inhalt eines bestimmten Feldes.        |
-|                |Ein Minuszeichen vor dem Feldnamen dreht die Reichenfolge um.               |
+|                |Ein Minuszeichen vor dem Feldnamen dreht die Reihenfolge um.                |
 |                |Beispiel: year für Jahr.                                                    |
 |                |Absteigende Sortierung: -year                                               |
 |                |Aufsteigende Sortierung: year                                               |
@@ -300,9 +300,9 @@ Mit output können Sie das Ausgabe-Format beeinflussen. Neben einem Standard-For
     .. figure:: images/OhneRahmen.png
          :alt: OhneRahmen.png
 
-    - Output: Gewünschtes Format wird ausgegeben: Apa, BibTex, etc. Je nachdem welche Masken für die Ausgabe verfügbar sind.
+    - Output: Gewünschtes Format wird ausgegeben: Apa, BibTex, etc. Je nachdem, welche Masken für die Ausgabe verfügbar sind.
 
-    - Groupby: Frei wählbare Grouppierungen können eingerichtet werden, z.B. nach Jahr:
+    - Groupby: Frei wählbare Gruppierungen können eingerichtet werden, z.B. nach Jahr:
 
       - ``'groupby': 'year|substring:0,4',``
 
