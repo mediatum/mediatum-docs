@@ -40,55 +40,50 @@ Editor öffnen
 Neue Dokumente erstellen
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-Möglichkeit 1: "Metadaten einstellen" anklicken
+Möglichkeit 1: "Metadaten-Eingabe" anklicken
 """""""""""""""""""""""""""""""""""""""""""""""
 
-- Wählen Sie Objekttyp und Metadatenschema aus.
-- Füllen Sie das Metadatenschema aus und speichern Sie Ihre Eingaben.
-- Klicken Sie in der oberen Navigation auf „Metadaten editieren > Digitale Objekte“.
-- Öffnen Sie „Optionen“, wählen Sie Ihre Datei aus und klicken Sie auf „Anlegen / Hochladen“.
+- Wählen Sie das Metadatenschema aus.
+- Füllen Sie die Eingabemaske aus und speichern Sie Ihre Eingaben.
+- Wenn Sie einen Volltext hochladen wollen, klicken Sie in der oberen Navigation auf „Datei hinzufügen“.
+- Wählen Sie Ihre Datei aus und klicken Sie auf „Anlegen / Hochladen“.
 
-.. figure:: images/ErstelleDatensatz2.jpg
-   :alt: ErstelleDatensatz2.jpg
+
+Möglichkeit 2: DOI-Import
+"""""""""""""""""""""""""
+
+- „DOI-Import“ anklicken.
+- Tragen Sie den DOI ein.
+- Klicken Sie auf „OK“.
+- Metadaten werden automatisch angelegt.
+- Überprüfen Sie die Metadaten und ergänzen Sie diese bei Bedarf.  
    
    
-Möglichkeit 2: "Datei(en) hochladen" anklicken
+Möglichkeit 3: "Datei hochladen" anklicken
 """"""""""""""""""""""""""""""""""""""""""""""
 
-- Wählen Sie Ihre Datei aus, laden Sie sie hoch und wählen Sie den Metadatentyp.
+- Wählen Sie Ihre Datei aus, laden Sie sie hoch, klicken Sie auf "Upload beginnen" und wählen Sie den Metadatentyp.
 - Mit „Objekte erzeugen“ wird ein neuer Datensatz angelegt.
 - Sie finden das Objekt im Bearbeitungsbereich Ihres Upload-Ordners.
 - Zum Editieren klicken Sie auf das Symbol |BearbeitenEdit| „Metadaten bearbeiten“ .
 
 
-Möglichkeit 3: BibTeX-Import
+Möglichkeit 4: BibTeX-Import
 """"""""""""""""""""""""""""
 
-- „Datei(en) hochladen“ anklicken.
+- „Bibtex-Import“ anklicken.
 - Laden Sie eine BibTeX-Datei hoch.
 - Wählen Sie „Objekte verarbeiten“ aus.
 - Es werden neue Datensätze angelegt.
 - Überprüfen und ergänzen Sie die Datensätze bei Bedarf.
    
-
-Möglichkeit 4: DOI-Import
-"""""""""""""""""""""""""
-
-- „Metadaten einstellen“ anklicken.
-- Wechseln Sie auf „von Identifier“.
-- Tragen Sie die DOI ein.
-- Klicken Sie auf „Objekt erzeugen“.
-- Metadaten werden automatisch angelegt.
-- Überprüfen Sie die Metadaten und korrigieren Sie diese bei Bedarf.   
    
 
-
-Veröffentlichen: Quick Publisher   
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^   
+Veröffentlichen mit dem Veröffentlichungs-Assistenten
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^   
    
-In Ihrem Arbeitsbereich finden Sie nun den rot hervorgehobenen Hinweis, dass sich in Ihrem Upload-Ordner unveröffentlichte Dokumente befinden.
 
-- Klicken Sie auf „Unpublizierte Objekte jetzt publizieren (Quick Publisher)“.
+- Klicken Sie den Button „Veröffentlichungs-Assistent“.
 - Eine Übersicht der Dokumente wird nochmals dargestellt, darüber finden Sie „Verzeichnisse auswählen“.
 - Es öffnet sich der Verzeichnisbaum. Wählen Sie einen oder mehrere Zielordner aus.
 - Die Ordner werden übernommen und aufgelistet.
@@ -118,10 +113,9 @@ Daneben sind zahlreiche weitere Funktionen verfügbar.
 Der Editor-Bereich ist nur angemeldeten Nutzern zugänglich.
 Melden Sie sich bei mediaTUM an, indem Sie auf der Webseite
 links oben auf **Login** klicken. Geben Sie Ihre Kennung sowie das
-zugehörige Passwort ein und klicken auf **Anmelden**. Sie erkennen
-an der Anzeige Ihres Benutzernamens oben links, dass Sie eingeloggt
-sind. Klicken Sie nun oben links auf Bearbeiten, um in den
-Bearbeitungsmodus zu wechseln.
+zugehörige Passwort ein und klicken auf **Anmelden**. Oben links
+wird nun Ihr Benutzernamen angezeigt. Klicken Sie nun oben links 
+auf "Bearbeiten", um in den Bearbeitungsmodus zu wechseln.
 
 
 .. figure:: images/Edit.png
@@ -142,7 +136,7 @@ Bearbeitungsmodus zu wechseln.
 
 |ErstSchri1|
 
-Hier sehen Sie die Funktionen *Aussehen*, *Metadaten editieren*, *Berechtigungen* und *Spezialfunktionen*.
+Hier sehen Sie die Funktionen *Verzeichnis-Übersicht*, *Metadaten bearbeiten* und *Spezialfunktionen*.
 Diese Funktionen stehen Ihnen für das Bearbeiten von Objekten und Verzeichnissen zur Verfügung.
 
 
