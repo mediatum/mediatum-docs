@@ -189,19 +189,15 @@ Manuelles Anlegen eines bibliographischen Datensatzes
 
 Wechseln Sie in den Upload-Bereich über das Pfeil-Symbol: |Download|
 oder über die Verzeichnisstruktur Ihres Arbeitsverzeichnisses. Wählen
-Sie **Metadaten einstellen** aus. Es öffnet sich das Menü **Neues
+Sie **Metadaten-Eingabe** aus. Es öffnet sich das Menü **Neues
 Metadatenobjekt anlegen**:
 
 .. figure:: images/ErstelleDatensatz1.jpg
    :alt: ErstelleDatensatz1.jpg
 
 
-Wählen Sie zunächst den Objekttyp (z.B. **Dokumente**) und anschließend
-das Metadatenschema (z.B. **Zeitschriftenaufsatz**) aus. Anschließend
-erscheint der Button **Objekt erzeugen**.
-
-.. figure:: images/ErstelleDatensatz2.jpg
-   :alt: ErstelleDatensatz2.jpg
+Wählen Sie das Metadatenschema (z.B. **Zeitschriftenaufsatz**) aus. 
+Anschließend erscheint der Button **Objekt erzeugen**.
 
 
 **Ergebnis:** Nachdem Sie **Objekt erzeugen** angeklickt haben, wird der
@@ -213,9 +209,8 @@ Anlegen eines bibliographischen Datensatzes über einen Identifier
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 Wurde für das zu veröffentlichende Dokument bereits eine DOI vergeben
-(z.B. für einen Aufsatz in einer Fachzeitschrift), wählen Sie im Menü
-die Option von **Identifier** aus. Geben Sie die DOI in das Eingabefeld
-ein und klicken Sie auf **Objekt erzeugen**.
+(z.B. für einen Aufsatz in einer Fachzeitschrift), wählen Sie **DOI-Import**.
+Geben Sie die DOI in das Eingabefeld ein und klicken Sie auf **Objekt erzeugen**.
 
 .. figure:: images/ErstelleDatensatz3.jpg
    :alt: ErstelleDatensatz3.jpg
@@ -232,10 +227,11 @@ Automatisches Anlegen bibliographischer Datensätze im BibTeX-Import
 Sie möchten eine Publikationsliste aus Ihrem
 Literaturverwaltungsprogramm (z.B. Citavi oder EndNote) nach mediaTUM
 übertragen. Exportieren Sie dafür die gewünschten Datensätze im
-Bibtex-Format. Speichern Sie die Datei mit der Endung **.bib** ab.
+Bibtex-Format. Speichern Sie die Datei mit der Endung **.bib** und der
+Codierung UTF-8 ab.
 Wechseln Sie in den Upload-Bereich über das Pfeil-Symbol
 |Download|\ oder über die Verzeichnisstruktur Ihres
-Arbeitsverzeichnisses. Wählen Sie **Datei(en) hochladen** aus. Es öffnet
+Arbeitsverzeichnisses. Wählen Sie **Bibtex-Import** aus. Es öffnet
 sich ein Dialog-Fenster. Klicken Sie zunächst auf **Dateien
 hinzufügen**.
 
@@ -271,7 +267,7 @@ Upload von digitalen Objekten
 
 Wechseln Sie in den Upload-Bereich über das
 Pfeil-Symbol:\ |Download| oder über die Verzeichnisstruktur Ihres
-Arbeitsverzeichnisses. Wählen Sie **Datei(en) hochladen** aus. Es öffnet
+Arbeitsverzeichnisses. Wählen Sie **Datei hochladen** aus. Es öffnet
 sich ein Dialog-Fenster. Klicken Sie zunächst auf den Button **Dateien
 hinzufügen**.
 
@@ -316,11 +312,8 @@ der gewünschte Datensatz befindet.
 
 
 Klicken Sie in der Symbolleiste des Datensatzes auf das Symbol
-|BearbeitenEdit| (Metadaten editieren) oder im linken Bereich der
-Datensatz-Anzeige auf das Volltext-Symbol (Großansicht). Anschließend
-wählen Sie unter **Metadaten editieren** den Unterpunkt **digitale
-Objekte austauschen/hinzufügen** aus und klicken auf **Optionen**. Es
-erscheint folgendes Menü:
+|BearbeitenEdit| (Metadaten bearbeiten). Anschließend
+wählen Sie im Menü **Datei hinzufügen** aus. Es erscheint folgendes Menü:
 
 .. figure:: images/Hochlad4.jpg
    :alt: Hochlad4.jpg
@@ -346,7 +339,7 @@ Hier können Sie mehrere weitere Anhänge hochladen, z.B. eine zweite PDF-Datei 
 Alternativ können Sie Metadaten für jeden Anhang einzeln anlegen, lesen Sie hierzu den Abschnitt :ref:`Kindelemente`.
 
 
-Mit der Funktion **Thumbnail hochladen** können Sie ein bestehendes
+Mit der Funktion **Thumbnail neu hochladen** können Sie ein bestehendes
 Thubnail durch ein neues Thumbnail ersetzen. Die Grafik sollte 300x300px
 groß sein.
 
@@ -357,9 +350,10 @@ Kindelemente
 """"""""""""
 
 Mit Kindelementen können Sie Alternativ zu Attachments die Art der Darstellung Ihrer Dokumente individuell beeinflussen.
-Der Entscheidende Vorteil ist, dass jedes Element eigene Metadaten hat und somit einzeln gefunden werden kann, außerdem wird zwischen diesen Elementen verlinkt.
+Der Entscheidende Vorteil ist, dass jedes Element eigene Metadaten hat und somit einzeln gefunden werden kann, 
+außerdem wird zwischen diesen Elementen verlinkt.
 
-Ordnen Sie Ihrem Objekt Kindelemente zu, indem Sie unter **Metadaten editieren > digitale Objekte austauschen/hinzufügen** den Reiter **Kindelemente** auswählen.
+Ordnen Sie Ihrem Objekt Kindelemente zu, indem Sie unter **Datei hinzufügen** den Reiter **Kindelemente** auswählen.
 Sie sehen eine Übersicht aller angehängeter Objekte, wenn diese bereits verknüpft wurden.
 
 
@@ -376,14 +370,15 @@ Damit ein Kindelement hinzugefügt wird, klicken Sie zunächst auf das |Plus|.
 
 
 Es öffnet sich die Auswahl, in der Sie Elemente als *Kinder* anhängen können.
-Die Navigationsstruktur wird wie üblich dargestellt und Sie können sowohl aus Ihrem Arbeitsbereich, als auch aus dem Gesamtbestand Elemente als *Kinder* bestimmen.
+Die Navigationsstruktur wird wie üblich dargestellt und Sie können sowohl aus Ihrem Arbeitsbereich, 
+als auch aus dem Gesamtbestand Elemente als *Kinder* bestimmen.
 Der Inhalt des Ordners, den Sie in der Baumstruktur auswählen, wird unter *Elementknoten* dargestellt.
 Markieren Sie das gewünschte Element nun mit einem Haken |Checked| und bestätigen Sie die Auswahl mit *OK*.
-
 Sie gelangen nun wieder zur ersten Ansicht, bei dem das neue Kindelement aufgelistet wird.
 Die Reihenfolge können Sie bei mehreren Kindelementen per Drag and Drop variieren und anschließend abspeichern.
 
-Die Darstellung der Kindelemente erfolgt sowohl im Editor, durch ein zweites kleineres Thumbnail, als auch in Trefferlisten mit Thumbnails.
+Die Darstellung der Kindelemente erfolgt sowohl im Editor, durch ein zweites kleineres Thumbnail, 
+als auch in Trefferlisten mit Thumbnails.
 Außerdem werden in der Einzelansicht die Kinder einzeln aufgelistet und können angeklickt werden.
 So gelangt man zu den jeweiligen Metadaten.
 
