@@ -388,40 +388,25 @@ So gelangt man zu den jeweiligen Metadaten.
 Bearbeite Datensatz
 ^^^^^^^^^^^^^^^^^^^
 
-Wechseln Sie zunächst in das Upload-Verzeichnis. Der Hinweis (rot hinterlegt)
-auf die Funktion *Quick-Publisher* erscheint und weist auf unpublizierte Objekte hin.
-
-.. warning::
-
-    **Achtung:** Dieser Schritt ist erst nach der Fertigstellung eines Datensatzes
-    nötig. Bitte nutzen Sie diese Funktion also erst nach der endgültigen Bearbeitung
-    der Datensätze. Siehe auch diese Beschreibung :ref:`Datensätze publizieren`.
-
-.. figure:: images/Bearb1.jpg
-   :alt: Bearb1.jpg
-
-
 Angelegte Datensätze öffnen
 """""""""""""""""""""""""""
 
 Ein neu angelegter Datensatz kann zur Bearbeitung geöffnet werden.
-Bewegen Sie dazu den Mauszeiger auf die Datensatz-Anzeige. In der
-rechten oberen Ecke der Datensatz-Anzeige erscheinen verschiedene
-Optionen |BearbeitenEdit|, von denen Sie die Option (Metadaten
-editieren) auswählen.
+Klicken Sie in der Symbolleiste des Datensatzes auf das Symbol
+|BearbeitenEdit| (Metadaten bearbeiten).
 
-.. figure:: images/Bearb2.jpg
-   :alt: Bearb2.jpg
+.. figure:: images/Hochlad3.jpg
+   :alt: Hochlad3.jpg
 
 
 **Ergebnis:** Die Eingabemaske für die Metadaten öffnet sich.
-Weitere Optionen: der Datensatz kann verschoben (|VerschiebenEdit|), kopiert (|KopierenEdit|) und wieder
+Die weiteren Optionen sind: der Datensatz kann verschoben (|VerschiebenEdit|), kopiert (|KopierenEdit|) und wieder
 gelöscht (|LoeschenEdit|) werden.
 
 Daten eingeben und Informationen zu Feldtypen
 """""""""""""""""""""""""""""""""""""""""""""
 
-Sie können alle Daten, die Ihnen bekannt sind, für den Datensatz
+Sie können alle Informationen, die Ihnen bekannt sind, für den Datensatz
 eingeben. Für jeden Datentyp sind unterschiedliche Felder vorgegeben.
 Prinzipiell steht es Ihnen frei, welche und wie viele Felder Sie
 ausfüllen möchten; es gibt jedoch für jedes Metadatenschema einige
@@ -466,8 +451,8 @@ Datensätze veröffentlichen
 .. _Datensätze publizieren:
 
 
-Quick Publisher
-"""""""""""""""
+Veröffentlichungs-Assistent
+"""""""""""""""""""""""""""
 
 
 Wir empfehlen Ihnen, mehrere Datensätze fertig anzulegen und diese dann
@@ -478,22 +463,10 @@ auch richtig eingegeben worden sind.
 
 
 Klicken Sie auf den Upload-Ordner, der die zu veröffentlichenden
-Einträge enthält. Die Datensätze werden zusammen mit dem Hinweis auf den
-Quick-Publisher eingeblendet.
+Einträge enthält. Die Datensätze werden zusammen mit dem Button  
+**Veröffentlichungs-Assistent** eingeblendet. Klicken Sie den Button an. 
+Es erscheint folgende Ansicht: 
 
-.. figure:: images/Bearb1.jpg
-   :alt: Bearb1.jpg
-
-
-Klicken Sie auf den Link **Unpublizierte Objekte jetzt publizieren
-(Quick-Publisher).**
-
-.. warning::
-
-    Bitte beachten Sie: Es werden automatisch alle Datensätze ausgewählt –
-    zu erkennen an dem Häkchen bei den einzelnen Datensätzen. Wenn Sie nur
-    bestimmte Datensätze veröffentlichen wollen, entfernen dieses durch
-    Anklicken bei den Datensätzen, die Sie nicht publizieren wollen.
 
 .. figure:: images/Publizieren2.jpg
    :alt: Publizieren2.jpg
@@ -503,7 +476,7 @@ Klicken Sie nun auf den Link **Verzeichnisse auswählen**. Im folgenden
 Dialog wird der öffentliche Bereich von mediaTUM in einer
 Browsingstruktur angezeigt. Über das Pluszeichen (|Plus|) können Sie
 die Verzeichnisse weiter öffnen. Das Verzeichnis Ihrer Institution
-finden Sie unter **Einrichtungen** > **Fakultäten** oder
+finden Sie unter **Einrichtungen** > **Fakultäten**,
 **Wissenschaftliche Zentralinstitute** oder **Serviceeinrichtungen**.
 
 .. figure:: images/Publizieren3.jpg
