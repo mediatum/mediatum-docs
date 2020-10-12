@@ -377,7 +377,7 @@ Beispiel: ``mediatum_load(603843, 55, 'author.surname', unescape(encodeURICompon
 Curl Content
 ^^^^^^^^^^^^
 
-https://www.typo3.tum.de/index.php?id=118&L=0
+https://www.typo3.tum.de/index.php?id=144
 
 
 
@@ -454,7 +454,7 @@ Der Export-Link besitzt folgenden Aufbau:
 
 -  `Zu erweiterten Suchmöglichkeiten <http://129.187.87.212/mediatum_dev/index.php/Mediatume_dev:Webservice_REST>`_
 -  Zu Publikationslisten, mit mediaTUM als Quelle:
-   https://www.typo3.tum.de/index.php?id=61&L=0
+   https://www.typo3.tum.de/index.php?id=144
 
 
    
