@@ -1,7 +1,7 @@
 Anwender-Dokumentation
 ======================
 
-Die folgenden Abschnitte beschreiben Funktionalitäten von mediaTUM für die eine Registrierung und Anmeldung des Nutzers nicht notwendig ist.
+Die folgenden Abschnitte beschreiben Funktionalitäten von mediaTUM, für die eine Registrierung und Anmeldung des Nutzers nicht notwendig ist.
 
 .. figure:: images/Recherche.jpg
    :alt: Recherche.jpg
