@@ -109,14 +109,13 @@ Ein einfaches Code-Beispiel:
 
 .. code:: javascript
 
-    <script type="text/javascript" language="javascript"
-    src="https://mediatum.ub.tum.de/js/export.js"> </script>
+    <script src="https://mediatum.ub.tum.de/static/js/export.js"> </script>
 
-    <script type="text/javascript">
+    <script>
         mediatum_config = {
         };
     </script>
-    <script type="text/javascript">
+    <script>
         mediatum_load(615843, 0, '-year','', '', 'de');
     </script>
 
@@ -182,9 +181,8 @@ Mit output können Sie das Ausgabe-Format beeinflussen. Neben einem Standard-For
 
     .. code:: javascript
 
-        <script type="text/javascript" language="javascript"
-        src="https://mediatum.ub.tum.de/js/export.js"> </script>
-        <script type="text/javascript">
+        <script src="https://mediatum.ub.tum.de/static/js/export.js"> </script>
+        <script>
             mediatum_config = {
                 'fields0':['<small style="color:red">[att:pos]</small>',
                            '[att:author-contrib]',
@@ -193,7 +191,7 @@ Mit output können Sie das Ausgabe-Format beeinflussen. Neben einem Standard-For
                 ],
             };
         </script>
-        <script type="text/javascript">
+        <script>
             mediatum_load(615843, 0, '-year','', '', 'de');
         </script>
 
@@ -243,9 +241,8 @@ Mit output können Sie das Ausgabe-Format beeinflussen. Neben einem Standard-For
 
     .. code:: javascript
 
-        <script type="text/javascript" language="javascript"
-        src="https://mediatum.ub.tum.de/js/export.js"> </script>
-        <script type="text/javascript">
+        <script src="https://mediatum.ub.tum.de/static/js/export.js"> </script>
+        <script>
             mediatum_config = {
                 'fields0':['<small style="color:red">[att:pos]</small>',
                            '[att:author-contrib]', '<b>[att:title-contrib]</b>',
@@ -253,7 +250,7 @@ Mit output können Sie das Ausgabe-Format beeinflussen. Neben einem Standard-For
                            'type0':['struct','search','asc'],
                 };
         </script>
-        <script type="text/javascript">
+        <script>
             mediatum_load(615843, 0, '-year','', '', 'de');
         </script>
 
@@ -268,9 +265,8 @@ Mit output können Sie das Ausgabe-Format beeinflussen. Neben einem Standard-For
 
     .. code:: javascript
 
-        <script type="text/javascript" language="javascript"
-        src="https://mediatum.ub.tum.de/js/export.js"> </script>
-        <script type="text/javascript">
+        <script src="https://mediatum.ub.tum.de/static/js/export.js"> </script>
+        <script>
             mediatum_config = {
                 'fields0':['<small style="color:red">[att:pos]</small>',
                            '[att:author-contrib]', '<b>[att:title-contrib]</b>',
@@ -282,7 +278,7 @@ Mit output können Sie das Ausgabe-Format beeinflussen. Neben einem Standard-For
                            'groupby':'year',
             };
         </script>
-        <script type="text/javascript">
+        <script>
             mediatum_load(615843, 0, '-year','', '', 'de');
         </script>
 
