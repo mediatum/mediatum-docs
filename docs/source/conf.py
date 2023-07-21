@@ -136,7 +136,7 @@ html_theme_options = { # for alabaster
     'page_width': '70em',
     'fixed_sidebar': True, # only in ver 0.7.8 (May 2016)
     'extra_nav_links': {'mediatum.github.io': 'http://mediatum.github.io',
-                        'github.com/mediatum': 'https:/github.com/mediatum',
+                        'github.com/mediatum': 'https://github.com/mediatum',
                         'Impressum': 'https://www.ub.tum.de/impressum'},
     'font_family': 'Arial, Helvetica, sans-serif',
     'head_font_family': 'Arial, Helvetica, sans-serif',
