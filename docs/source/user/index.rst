@@ -349,7 +349,6 @@ Mit output können Sie das Ausgabe-Format beeinflussen. Neben einem Standard-For
 
     In die Publikationslisten werden nur Einträge aufgenommen mit „Jeder“-Berechtigung.
 
-    `Weitere Informationen und Funktionen <http://129.187.87.212/mediatum_dev/index.php/Mediatume_dev:Webservice_REST>`_
 
 Suche nach Umlauten
 """""""""""""""""""
@@ -448,7 +447,6 @@ Der Export-Link besitzt folgenden Aufbau:
 
 **Ausführliche Informationen:**
 
--  `Zu erweiterten Suchmöglichkeiten <http://129.187.87.212/mediatum_dev/index.php/Mediatume_dev:Webservice_REST>`_
 -  Zu Publikationslisten, mit mediaTUM als Quelle:
    https://www.typo3.tum.de/index.php?id=144
 
