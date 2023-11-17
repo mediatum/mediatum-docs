@@ -31,7 +31,7 @@ Editor öffnen
 
 - Loggen Sie sich unter https://mediatum.ub.tum.de ein.
 - Klicken Sie auf „Bearbeiten“ in der oberen Leiste.
-- Sie erhalten diese Ansicht:
+- Sie erhalten folgende Ansicht:
 
 .. figure:: images/Edit.png
    :alt: Edit.png
