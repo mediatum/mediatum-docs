@@ -881,45 +881,57 @@ Als Suchmaskentyp gibt es 3 Optionen zur Auswahl:
 Rechteverwaltung
 ----------------
 
-Sie können die Berechtigungen auf einzelne Dokumente oder bestimmte Verzeichnisse separat einstellen.
-Ordnen Sie die Gewünschten Berechtigungen zu, indem Sie das Dokument oder Verzeichnis auswählen und
-anschließend unter *Berechtigungen* > *Rechtevergabe* auswählen.
+Über die Rechteverwaltung wird festgelegt
 
-Dort finden Sie drei unterschiedliche Berechtigungsformen: sehen, bearbeiten, herunterladen.
+- Wer welche Verzeichnisse und die Metadaten von Datensätzen sehen darf
+- Wer PDFs herunterladen darf
+- Wer Verzeichnisse und Datensätze bearbeiten darf
 
+Gründsätzlich gilt: Die Rechte, die für ein Verzeichnis gelten, werden auf die Unter-Verzeichnisse und
+Datensätze vererbt und gelten auch dort. Die Rechte können aber angepasst werden, also erweitert oder
+eingeschränkt werden. Datensätze können an mehreren Stellen im Verzeichnisbaum eingehängt werden und 
+erben dadurch die Rechte von alle übergeordneten Verzeichnissen.
+
+Bei einem Publikationsserver wie mediaTUM sollten die Metadaten und Volltexte möglichst frei abrufbar
+sein. Die Rechte für Datensätze und digitale Objekte sollten daher auf "Jeder" stehen. 
+
+Es gibt aber mehrere Gründe, die Zugriffsrechte einzuschränken: 
+
+- Sperrfristen (z.B. für Dissertationen)
+- Zugangsbeschränkungen wegen vertraglicher Vorgaben, z.B. Zugriff nur am Campus
+- Interne Dokumente
+
+Die Rechteverwaltung ist im Editor über die Menüzeile Spezialfunktionen / Rechte vergeben erreichbar. 
 
 .. figure::    images/RechtevergabeEditor.png
    :alt:    RechtevergabeEditor.png
 
+Die Kästen auf der linken Seite zeigen an, welche Gruppen Berechtigungen besitzen. Auf der rechten Seite 
+sind die Gruppen angezeigt, die hinzugefügt werden können.
 
-Diese können unabhängig voneinander Gruppen zugeordnet werden. Links sehen Sie, welche Gruppen den unterschiedlichen
-Kategorien zugeordnet wurden. Diese werden vom Überordner eines Verzeichnisses oder vom Verzeichnis eines
-Dokuments weitervererbt und damit automatisch voreingestellt.
-Diese Werte können überschrieben werden, mit entsprechenden Gruppen: :ref:`Rechtevergabe Gruppenebene`. Als
-Admin können  Rechte auch für einzelne Nutzer zugeordnet werden: :ref:`Rechtevergabe Admin`.
+Durch Anklicken wird eine Benutzergruppe markiert. Mit den Pfeiltasten kann dann diese Gruppe nach rechts 
+bzw. links verschoben werden. Alternativ ist auch das Verschieben mit Doppelklick möglich. 
 
-Des Weiteren erscheint auf der rechten Seite eine Liste aller vorhandener Gruppen bzw. Benutzern. Diese
-kann mithilfe des Filters für Listeneinträge schneller durchsucht werden. Tragen Sie in das Feld Ihre
-Suchanfrage ein, und es werden umgehen nur Listeneinträge angezeigt, welche die Eingabe enthalten.
-Wählen Sie Ihren Treffer aus, indem Sie ihn einmal anklicken und anschließend mit << nach Links verschieben
-oder indem Sie Ihn doppelt anklicken.
+Änderungen bei der Rechtevergabe müssen mit Speichern" bestätigt werden, um aktiv zu werden.
 
+Um eine Benutzergruppe zu finden, kann der „Filter für Listeneinträge“ verwendet werden. 
 
-.. _Rechtevergabe Gruppenebene:
+Fett geschriebene Benutzergruppen sind vererbt von einem übergeordneten Verzeichnis und können nicht verschoben werden. 
 
-Rechtevergabe auf Gruppenebene
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Die Rechte können für Verzeichnisse und einzelne Datensätze vergeben werden. 
 
-Um eine Gruppe als berechtigt hinzuzufügen, suchen Sie die Gruppe in der rechten Liste und schieben Sie
-diese nach links. Nach dem Abspeichern wird diese Berechtigung aktiviert.
+Die Rechtevergabe im Einzelnen: 
 
+- Usergruppen, die diese Objekte sehen dürfen: Ist hier "Jeder" eingetragen, kann jede Person ohne Beschränkung  das Verzeichnis sehen bzw. die Metadaten eines Datensatzes. 
+- Usergruppen, die diese Objekte bearbeiten dürfen: Datensätze anlegen und ändern, Unterverzeichnisse anlegen, umbenennen und löschen. Um Datensätze in ein Verzeichnis ablegen zu können, muss die eigene Benutzergruppe für diese Verzeichnis freigeschaltet sein.
+- Usergruppen, die Originale herunterladen dürfen: Ist hier "Jeder" eingetragen, kann jede Person ohne Beschränkung das Vorschaubild sehen und das digitale Objekt (PDF, Bilder) herunterladen.
 
-.. figure::    images/RechtevergabeEditor.png
-   :alt:     RechtevergabeEditor.png
+Durch eine "Nicht-Jeder"-Regel können alle Berechtigung entzogen werden, egal, welche Rechte vererbt worden sind. 
 
+Administratoren-Kennungen haben natürlich trotzdem Zugriffs- und Bearbeitungsrechte für alle Datensätze und Verzeichnisse.
 
-Möchten Sie die Vererbten Berechtigungen entziehen, müssen Sie die Regel "Nicht_Benutzergruppe" nach
-links verschieben und anschließend speichern, damit das vererbte Recht entzogen wird.
+Wird bei einem Datensatz oder einem Verzeichnis mit Jeder-Rechten bei "Objekte sehen" und "Originale herunterladen" 
+weitere Gruppen ergänzt, verschwindet das Jeder-Recht automatisch.
 
 Weitere Informationen für Admins: :ref:`Rechtevergabe Admin`.
 
