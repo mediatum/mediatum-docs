@@ -537,8 +537,3 @@ Der Export-Link für das BibTeX-Format hat folgenden Aufbau:
        :alt: Export.png
 
 
-Print-Funktion
-^^^^^^^^^^^^^^
-
-Die Print-Funktion kann über das eingeblendete Druckersymbol aufgerufen werden.
-Mit ihr können alle Einträge einer Kollektion als PDF-Dokumente exportiert werden.

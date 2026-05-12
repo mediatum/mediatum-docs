@@ -11,7 +11,7 @@ von entsprechend berechtigten Personen administriert werden. mediaTUM zeichnet s
 bei dem Zugriffrechte bis hin zur Ebene einzelner Objekte festgelegt werden können.
 Die in mediaTUM hinterlegten Daten können komfortabel über Webschnittstellen in andere Anwendungen integriert und nachgenutzt werden.
 
-mediaTUM ist geeignet für verschiedene Einsatzszenarien:
+mediaTUM ist geeignet für verschiedene Einsatz-Szenarien:
 
 * Verwendung als Repository für Bild- und Videodateien:
    * Dateiformate und Objekttypen: JPG, TIFF, MP4
